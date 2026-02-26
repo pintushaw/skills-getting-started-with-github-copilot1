@@ -12,5 +12,25 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Run backend tests
+
+Install dependencies:
+
+```bash
+/usr/local/bin/python -m pip install -r requirements.txt
+```
+
+Run all tests:
+
+```bash
+/usr/local/bin/python -m pytest -q
+```
+
+Run a single test file:
+
+```bash
+/usr/local/bin/python -m pytest tests/test_signup.py -q
+```
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
